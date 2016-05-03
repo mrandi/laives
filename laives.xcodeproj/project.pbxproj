@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8860CEA71CD8D6860038754F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8860CEA61CD8D6860038754F /* AppDelegate.swift */; };
+		8860CEA91CD8D6860038754F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8860CEA81CD8D6860038754F /* ViewController.swift */; };
+		8860CEAB1CD8D6860038754F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8860CEAA1CD8D6860038754F /* Assets.xcassets */; };
+		8860CEAE1CD8D6860038754F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8860CEAC1CD8D6860038754F /* Main.storyboard */; };
+		8860CEB91CD8D6860038754F /* laivesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8860CEB81CD8D6860038754F /* laivesTests.swift */; };
+		8860CEC41CD8D6860038754F /* laivesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8860CEC31CD8D6860038754F /* laivesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8860CEB51CD8D6860038754F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8860CE9B1CD8D6860038754F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8860CEA21CD8D6860038754F;
+			remoteInfo = laives;
+		};
+		8860CEC01CD8D6860038754F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8860CE9B1CD8D6860038754F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8860CEA21CD8D6860038754F;
+			remoteInfo = laives;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8860CEA31CD8D6860038754F /* laives.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = laives.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8860CEA61CD8D6860038754F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8860CEA81CD8D6860038754F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8860CEAA1CD8D6860038754F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8860CEAD1CD8D6860038754F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8860CEAF1CD8D6860038754F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8860CEB41CD8D6860038754F /* laivesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = laivesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8860CEB81CD8D6860038754F /* laivesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = laivesTests.swift; sourceTree = "<group>"; };
+		8860CEBA1CD8D6860038754F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8860CEBF1CD8D6860038754F /* laivesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = laivesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8860CEC31CD8D6860038754F /* laivesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = laivesUITests.swift; sourceTree = "<group>"; };
+		8860CEC51CD8D6860038754F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8860CEA01CD8D6860038754F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8860CEB11CD8D6860038754F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8860CEBC1CD8D6860038754F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8860CE9A1CD8D6860038754F = {
+			isa = PBXGroup;
+			children = (
+				8860CEA51CD8D6860038754F /* laives */,
+				8860CEB71CD8D6860038754F /* laivesTests */,
+				8860CEC21CD8D6860038754F /* laivesUITests */,
+				8860CEA41CD8D6860038754F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8860CEA41CD8D6860038754F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8860CEA31CD8D6860038754F /* laives.app */,
+				8860CEB41CD8D6860038754F /* laivesTests.xctest */,
+				8860CEBF1CD8D6860038754F /* laivesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8860CEA51CD8D6860038754F /* laives */ = {
+			isa = PBXGroup;
+			children = (
+				8860CEA61CD8D6860038754F /* AppDelegate.swift */,
+				8860CEA81CD8D6860038754F /* ViewController.swift */,
+				8860CEAA1CD8D6860038754F /* Assets.xcassets */,
+				8860CEAC1CD8D6860038754F /* Main.storyboard */,
+				8860CEAF1CD8D6860038754F /* Info.plist */,
+			);
+			path = laives;
+			sourceTree = "<group>";
+		};
+		8860CEB71CD8D6860038754F /* laivesTests */ = {
+			isa = PBXGroup;
+			children = (
+				8860CEB81CD8D6860038754F /* laivesTests.swift */,
+				8860CEBA1CD8D6860038754F /* Info.plist */,
+			);
+			path = laivesTests;
+			sourceTree = "<group>";
+		};
+		8860CEC21CD8D6860038754F /* laivesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8860CEC31CD8D6860038754F /* laivesUITests.swift */,
+				8860CEC51CD8D6860038754F /* Info.plist */,
+			);
+			path = laivesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8860CEA21CD8D6860038754F /* laives */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8860CEC81CD8D6860038754F /* Build configuration list for PBXNativeTarget "laives" */;
+			buildPhases = (
+				8860CE9F1CD8D6860038754F /* Sources */,
+				8860CEA01CD8D6860038754F /* Frameworks */,
+				8860CEA11CD8D6860038754F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = laives;
+			productName = laives;
+			productReference = 8860CEA31CD8D6860038754F /* laives.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8860CEB31CD8D6860038754F /* laivesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8860CECB1CD8D6860038754F /* Build configuration list for PBXNativeTarget "laivesTests" */;
+			buildPhases = (
+				8860CEB01CD8D6860038754F /* Sources */,
+				8860CEB11CD8D6860038754F /* Frameworks */,
+				8860CEB21CD8D6860038754F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8860CEB61CD8D6860038754F /* PBXTargetDependency */,
+			);
+			name = laivesTests;
+			productName = laivesTests;
+			productReference = 8860CEB41CD8D6860038754F /* laivesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8860CEBE1CD8D6860038754F /* laivesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8860CECE1CD8D6860038754F /* Build configuration list for PBXNativeTarget "laivesUITests" */;
+			buildPhases = (
+				8860CEBB1CD8D6860038754F /* Sources */,
+				8860CEBC1CD8D6860038754F /* Frameworks */,
+				8860CEBD1CD8D6860038754F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8860CEC11CD8D6860038754F /* PBXTargetDependency */,
+			);
+			name = laivesUITests;
+			productName = laivesUITests;
+			productReference = 8860CEBF1CD8D6860038754F /* laivesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8860CE9B1CD8D6860038754F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Michele Randi";
+				TargetAttributes = {
+					8860CEA21CD8D6860038754F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					8860CEB31CD8D6860038754F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8860CEA21CD8D6860038754F;
+					};
+					8860CEBE1CD8D6860038754F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8860CEA21CD8D6860038754F;
+					};
+				};
+			};
+			buildConfigurationList = 8860CE9E1CD8D6860038754F /* Build configuration list for PBXProject "laives" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8860CE9A1CD8D6860038754F;
+			productRefGroup = 8860CEA41CD8D6860038754F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8860CEA21CD8D6860038754F /* laives */,
+				8860CEB31CD8D6860038754F /* laivesTests */,
+				8860CEBE1CD8D6860038754F /* laivesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8860CEA11CD8D6860038754F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8860CEAB1CD8D6860038754F /* Assets.xcassets in Resources */,
+				8860CEAE1CD8D6860038754F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8860CEB21CD8D6860038754F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8860CEBD1CD8D6860038754F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8860CE9F1CD8D6860038754F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8860CEA91CD8D6860038754F /* ViewController.swift in Sources */,
+				8860CEA71CD8D6860038754F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8860CEB01CD8D6860038754F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8860CEB91CD8D6860038754F /* laivesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8860CEBB1CD8D6860038754F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8860CEC41CD8D6860038754F /* laivesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8860CEB61CD8D6860038754F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8860CEA21CD8D6860038754F /* laives */;
+			targetProxy = 8860CEB51CD8D6860038754F /* PBXContainerItemProxy */;
+		};
+		8860CEC11CD8D6860038754F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8860CEA21CD8D6860038754F /* laives */;
+			targetProxy = 8860CEC01CD8D6860038754F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8860CEAC1CD8D6860038754F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8860CEAD1CD8D6860038754F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8860CEC61CD8D6860038754F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8860CEC71CD8D6860038754F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8860CEC91CD8D6860038754F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = laives/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.mrandi.laives;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8860CECA1CD8D6860038754F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = laives/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.mrandi.laives;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8860CECC1CD8D6860038754F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = laivesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.mrandi.laivesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/laives.app/Contents/MacOS/laives";
+			};
+			name = Debug;
+		};
+		8860CECD1CD8D6860038754F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = laivesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.mrandi.laivesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/laives.app/Contents/MacOS/laives";
+			};
+			name = Release;
+		};
+		8860CECF1CD8D6860038754F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = laivesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.mrandi.laivesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = laives;
+			};
+			name = Debug;
+		};
+		8860CED01CD8D6860038754F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = laivesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.mrandi.laivesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = laives;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8860CE9E1CD8D6860038754F /* Build configuration list for PBXProject "laives" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8860CEC61CD8D6860038754F /* Debug */,
+				8860CEC71CD8D6860038754F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8860CEC81CD8D6860038754F /* Build configuration list for PBXNativeTarget "laives" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8860CEC91CD8D6860038754F /* Debug */,
+				8860CECA1CD8D6860038754F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8860CECB1CD8D6860038754F /* Build configuration list for PBXNativeTarget "laivesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8860CECC1CD8D6860038754F /* Debug */,
+				8860CECD1CD8D6860038754F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8860CECE1CD8D6860038754F /* Build configuration list for PBXNativeTarget "laivesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8860CECF1CD8D6860038754F /* Debug */,
+				8860CED01CD8D6860038754F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8860CE9B1CD8D6860038754F /* Project object */;
+}
